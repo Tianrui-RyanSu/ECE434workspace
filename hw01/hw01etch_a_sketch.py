@@ -57,9 +57,9 @@ print("Current Pen location: "+str(currX)+", "+str(currY))
 
 #join while loop to keep prompting actions after first set
 while(1 + 1 == 2):
-    action = str(raw_input("action? (up, down, left, right, erase, dump, quit): "))
+    action = str(input("action? (up, down, left, right, erase, dump, quit): "))
     while(action!="up" and action!="down" and action!="left" and action!="right" and action!="erase" and action!="quit" and action!="dump"):
-            action = str(raw_input("wrong input, another try (up, down, left, right, erase, dump, quit): "))
+            action = str(input("wrong input, another try (up, down, left, right, erase, dump, quit): "))
     if(action == "up"):
         currX = currX-1
         currY = currY
