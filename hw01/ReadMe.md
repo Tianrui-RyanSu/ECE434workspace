@@ -18,3 +18,16 @@ After executing the script
                    (7)quit: quit drawing
 #5. current pen location is shown under the sketch board after each action
 
+
+# hw01 grading
+
+| Points      | Description | Comment
+| ----------- | ----------- | -------
+|  8/8 | Etch-a-Sketch works | 
+|  2/2 | Code documented (including name) |
+|  2/2 | Includes #!/usr/bin/env python3 and chmod +x |
+|  2/2 | install.sh included if needed |
+|  2/2 | Used hw01 directory |
+|  2/2 | ReadMe.md included |
+|  0/2 | Name in gitLearn and gitLearnFork | Missing
+| 18/20 | **Total**
